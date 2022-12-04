@@ -1,21 +1,20 @@
-// Seperate place values
-function seperator(input) {
-  if (!integerNumberValidator(input)) {
-    return new Error(`Input must be an integer number!`);
+// Case Insensitive Search
+function caseInsensitiveSearch(inputString, searchItem) {
+  if (!stringValidator(inputString) || !stringValidator(searchItem)) {
+    return new Error(`Inputs must be string!`);
   }
-  let sign = "";
-  let arrayInput = [...String(input)];
-  if (arrayInput[0] === "-") {
-    arrayInput.splice(0, 1);
-    sign = "-";
+  if (
+    [...searchItem].includes(function (item) {
+      return item === " ";
+    })
+  ) {
+    return new Error(`Second argument just should be a word!`);
   }
-  let reverseArrayInput = arrayInput.reverse();
-  let reverseResult = "";
-  while (reverseArrayInput.length > 3) {
-    reverseResult += reverseArrayInput.splice(0, 3).join("") + ",";
-  }
-  reverseResult += reverseArrayInput.join("");
 
-  return sign + [...reverseResult].reverse().join("");
+  let index = inputString.toLowerCase().indexOf(searchItem.toLowerCase());
+  if (index === -1) return false;
+  return true;
 }
-console.log(seperator(-1518851545));
+console.log(caseInsensitiveSearch("hello world", "Hello"));
+console.log(caseInsensitiveSearch("hello world", "hello"));
+console.log(caseInsensitiveSearch("hello world", "hi"));
