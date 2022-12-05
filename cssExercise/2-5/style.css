@@ -1,0 +1,114 @@
+/* global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* navigation bar styles */
+
+nav {
+  width: 600px;
+  margin: 10px auto 20px auto;
+  border-bottom: 1px solid #eee;
+}
+nav h4 {
+  display: inline-block;
+  padding: 20px 0;
+  color: grey;
+}
+.navBar {
+  float: right;
+  padding-top: 18px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: auto;
+}
+.navBar li {
+  display: inline;
+}
+.navBar li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 10px;
+  color: rgb(15, 99, 255);
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: smaller;
+}
+.navBar li a:hover {
+  background-color: rgb(15, 99, 255);
+  color: white;
+}
+
+/* main content styles */
+
+.main {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.jumbotrin-heading {
+  background-color: #eee;
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.jumbotrin-heading div {
+  width: 95%;
+  margin: 0 auto;
+  color: #333;
+}
+.jumbotrin-heading div h1 {
+  margin-top: 10px;
+  font-size: xxx-large;
+  font-weight: 700;
+}
+.jumbotrin-heading div p {
+  margin-bottom: 12px;
+}
+
+.signup-btn {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(22, 155, 4);
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: white;
+}
+.signup-btn:hover {
+  background-color: rgb(17, 131, 2);
+  cursor: pointer;
+}
+.otherData {
+  color: #333;
+}
+
+.otherData td {
+  padding: 10px 10px;
+}
+
+.otherData p {
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+.main table tr:nth-child(2) td {
+  padding-top: 30px;
+}
+footer {
+  width: 600px;
+  margin: 10px auto;
+  font-size: 0.6rem;
+  color: #777;
+}
