@@ -44,3 +44,7 @@ body {
   background-color: rgb(85, 158, 255);
   font-weight: 600;
 }
+.login-btn:hover {
+  background-color: rgb(32, 127, 252);
+  cursor: pointer;
+}
