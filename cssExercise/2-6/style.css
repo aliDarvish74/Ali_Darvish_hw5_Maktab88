@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+nav {
+  position: fixed;
+  right: 2vw;
+  top: 40vh;
+}
+.navItem {
+  display: block;
+  width: 3vh;
+  height: 3vh;
+  border: 0.15vw solid white;
+  border-radius: 50%;
+  margin-bottom: 1.5vh;
+}
+.navItem:hover {
+  cursor: pointer;
+}
+.darkBlueNav {
+  background-color: rgb(55, 73, 95);
+}
+.greenNav {
+  background-color: rgb(101, 194, 113);
+}
+.pinkNav {
+  background-color: rgb(218, 96, 75);
+}
+.orangeNav {
+  background-color: rgb(199, 96, 38);
+}
+.purpleNav {
+  background-color: rgb(145, 102, 181);
+}
+
+.darkBlueBackground {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(55, 73, 95);
+  padding-top: 45vh;
+}
+.darkBlueBackground h1 {
+  color: white;
+  width: fit-content;
+  vertical-align: middle;
+  margin: 0 auto;
+  font-weight: 300;
+  border: 1px solid white;
+  border-radius: 0.35vw;
+  padding: 2vh 5vw;
+}
+.darkBlueBackground h1:hover {
+  background-color: white;
+  color: rgb(55, 73, 95);
+  cursor: pointer;
+}
+
+.greenBackground {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(101, 194, 113);
+  padding: 25vh 5vw;
+}
+.greenBackground .greenText {
+  padding-top: 15vh;
+  width: 40vw;
+  float: left;
+}
+.greenBackground .greenText h1 {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  border: 1px solid white;
+  border-radius: 0.35vw;
+  padding: 2vh 5vw;
+}
+.greenBackground .greenText h1:hover {
+  background-color: white;
+  color: rgb(101, 194, 113);
+  cursor: pointer;
+}
+.greenBackground .greenText p {
+  color: white;
+}
+.greenBackground img {
+  width: 35vw;
+  height: auto;
+}
+
+.pinkBackground {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(218, 96, 75);
+  padding: 25vh 5vw;
+}
+.pinkBackground .pinkText {
+  padding-top: 15vh;
+  width: 40vw;
+  float: left;
+}
+.pinkBackground .pinkText h1 {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  border: 1px solid white;
+  border-radius: 0.35vw;
+  padding: 2vh 5vw;
+}
+.pinkBackground .pinkText h1:hover {
+  background-color: white;
+  color: rgb(218, 96, 75);
+  cursor: pointer;
+}
+.pinkBackground .pinkText p {
+  color: white;
+}
+.pinkBackground img {
+  width: 35vw;
+  height: auto;
+}
+
+.orangeBackground {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(199, 96, 38);
+  padding: 25vh 5vw;
+}
+.orangeBackground .orangeText {
+  padding-top: 15vh;
+  width: 40vw;
+  float: left;
+}
+.orangeBackground .orangeText h1 {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  border: 1px solid white;
+  border-radius: 0.35vw;
+  padding: 2vh 5vw;
+}
+.orangeBackground .orangeText h1:hover {
+  background-color: white;
+  color: rgb(199, 96, 38);
+  cursor: pointer;
+}
+.orangeBackground .orangeText p {
+  color: white;
+}
+.orangeBackground img {
+  width: 35vw;
+  height: auto;
+}
+.purpleBackground {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(145, 102, 181);
+  padding: 25vh 5vw;
+}
+
+.purpleBackground .purpleText {
+  padding-top: 15vh;
+  width: 40vw;
+  float: left;
+}
+.purpleBackground .purpleText h1 {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  border: 1px solid white;
+  border-radius: 0.35vw;
+  padding: 2vh 5vw;
+}
+.purpleBackground .purpleText h1:hover {
+  background-color: white;
+  color: rgb(145, 102, 181);
+  cursor: pointer;
+}
+.purpleBackground .purpleText p {
+  color: white;
+}
+.purpleBackground img {
+  width: 35vw;
+  height: auto;
+}
